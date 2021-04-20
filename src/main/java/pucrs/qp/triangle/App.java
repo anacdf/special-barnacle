@@ -3,30 +3,12 @@ package pucrs.qp.triangle;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * 
- * @author marco.mangan@pucrs.br
- * 
- */
 public class App {
-
-	/**
-	 * 
-	 * @param a
-	 * @param b
-	 * @param c
-	 * @return
-	 */
-
-	/**
-	 * 
-	 * @param args
-	 */
 	public static void main(String[] args) {
+		//Codigo pro URI
 		Scanner input = new Scanner(System.in);
 		boolean segue = true;
 		double nota;
-		int number, total = 0;
 		ArrayList<Double> notasValidas = new ArrayList<>();
 		ArrayList<Double> notasInvalidas = new ArrayList<>();
 
@@ -51,6 +33,7 @@ public class App {
 		}
 	}
 
+	//Metodo com TDD
 	public static String scoreValidation(double i, double i1) {
 		if (i < 0 || i1 < 0 || i > 10 || i1 > 10) {
 			return "nota invalida";

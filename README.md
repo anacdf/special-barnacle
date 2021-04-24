@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/masmangan/special-barnacle.svg?branch=master)](https://travis-ci.org/masmangan/special-barnacle)
-
 # Trabalho de Qualidade de Produto 2021/01 [![Build Status](https://travis-ci.com/anacdf/special-barnacle.svg?branch=master)](https://travis-ci.com/anacdf/special-barnacle)
 
 ## Trabalho 1 – Teste Unitário - Revisão

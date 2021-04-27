@@ -5,7 +5,10 @@ import java.util.Scanner;
 
 public class App {
 	public static void main(String[] args) {
-		//Codigo pro URI
+
+		System.out.println(scoreValidation(5,7));
+
+		//Codigo enviado no URI
 		Scanner input = new Scanner(System.in);
 		boolean segue = true;
 		double nota;
